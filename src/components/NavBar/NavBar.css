@@ -1,0 +1,10 @@
+.nav-bar {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+}
+
+.nav-link {
+  color: inherit;
+  text-decoration: none;
+}
