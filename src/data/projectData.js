@@ -5,6 +5,7 @@ import rancid from '../images/rancid.png';
 import spacestagram from '../images/spacestagram.png';
 import hopAround from '../images/hop-around.png';
 import tonys from '../images/tonys.gif';
+import qu from '../images/qu.png';
 
 const projects = [
   {
@@ -62,6 +63,14 @@ const projects = [
     url: '',
     deployedUrl: '',
     imageUrl: tonys
+  },
+  {
+    id: '1241',
+    title: 'QU - Musical Voting App',
+    description: 'Developed for OUR Tech, LLC. QU is an app designed to be like a virtual song suggest list where guests have communication with the DJ or party host. Tech stack uses React Native.',
+    url: '',
+    deployedUrl: '',
+    imageUrl: qu
   }
 ]
 

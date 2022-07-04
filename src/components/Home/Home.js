@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import Button from 'react-bootstrap/Button';
 import jsLogo from '../../images/js-logo.png';
 import ngLogo from '../../images/angular-logo-2.png';
 import reactLogo from '../../images/react-logo.png';
