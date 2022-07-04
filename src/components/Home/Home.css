@@ -8,7 +8,7 @@
 .home-title {
   font-size: 2.2em;
   font-family: 'Press Start 2P', cursive;
-  margin-bottom: 350px
+  margin-bottom: 250px
 }
 
 .skill-badges-container {
@@ -90,6 +90,12 @@
 }
 
 @media screen and (min-width: 575px) {
+  .home-title {
+    margin-bottom: 300px
+  }
+}
+
+@media screen and (min-width: 710px) {
   .home-title {
     margin-bottom: 350px
   }
