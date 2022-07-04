@@ -1,0 +1,10 @@
+.resume-iframe {
+  width: 100vw;
+  height: 90vh;
+}
+
+@media screen and (min-width: 575px) {
+  .resume-iframe {
+    width: 90vw;
+  }
+}
