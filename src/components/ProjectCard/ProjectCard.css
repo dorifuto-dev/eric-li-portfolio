@@ -1,13 +1,8 @@
 .project-card {
-  border: 1px solid lime;
-  margin: 10px 0;
+  border-radius: 10px;
+  margin: 20px 0;
   background-color: #ffffff;
-}
-
-.project-image {
-  width: 100vw;
-  height: 280px;
-  object-fit: cover;
+  box-shadow: 1px 5px 15px -4px rgba(0,0,0,0.65);
 }
 
 .project-link {
@@ -16,13 +11,43 @@
   text-decoration: none;
 }
 
+.project-image {
+  width: 100vw;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.project-title {
+  padding: 0.5em;
+  color: black;
+}
+
 @media screen and (min-width: 575px) {
   .project-card {
-    margin: 10px;
+    margin: 20px;
+    position: relative;
   }
 
   .project-image {
     width: 500px;
+  }
+
+  .cover {
+    position: absolute;
+    top: 0;
+    border-radius: 10px;
+    opacity: 10%;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    transition: 0s opacity;
+  }
+
+  .cover:hover {
+    opacity: 0;
+    transition: 0.3s;
   }
 }
 
