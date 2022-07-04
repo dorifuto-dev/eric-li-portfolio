@@ -19,11 +19,11 @@ const ProjectDetails = () => {
       <div className='project-detail-links'>
         {currentProject.deployedUrl
           &&
-            <button class='btn btn-primary'>
+            <button className='btn btn-primary'>
               <a className='deployed-url' href={currentProject.deployedUrl}>Deployed Link</a>
             </button>
         }
-        <button class='btn btn-success'>
+        <button className='btn btn-success'>
           <a className='github-url' href={currentProject.url}>Codebase</a>
         </button>
       </div>
