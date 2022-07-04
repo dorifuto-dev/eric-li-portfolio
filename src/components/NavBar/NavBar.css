@@ -2,20 +2,57 @@
   height: 86px;
   width: 100vw;
   display: flex;
-  justify-content: right;
+  justify-content: space-evenly;
   align-items: center;
+  position: relative;
+}
+
+.eric {
+  margin-left: 40px;
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  font-size: 1.2em;
+  font-family: 'Press Start 2P', cursive;
+  display: none;
 }
 
 .nav-link-container {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  width: 550px;
-  margin-right: 40px;
+  width: 450px;
+
+  display: flex;
 }
 
 .link {
   color: inherit;
   text-decoration: none;
+  font-size: 0.8em;
+}
+
+.hamburger-nav {
+}
+
+@media screen and (min-width: 805px) {
+  .nav-bar {
+    justify-content: right;
+  }
+
+  .nav-link-container {
+    display: flex;
+  }
+
+  .hamburger-nav {
+    display: none!important;
+  }
+
+  .eric {
+    display: block;
+  }
+
+  .nav-link-container {
+    margin-right: 40px;
+  }
 }
