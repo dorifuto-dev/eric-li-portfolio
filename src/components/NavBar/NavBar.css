@@ -1,7 +1,22 @@
 .nav-bar {
-  position: absolute;
-  top: 30px;
-  right: 40px;
+  height: 86px;
+  width: 100vw;
+  /*position: absolute;*/
+  /*top: 30px;*/
+  /*right: 40px;*/
+  display: flex;
+  justify-content: right;
+  align-items: center;
+
+}
+
+.nav-link-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 300px;
+  margin-right: 40px;
 }
 
 .nav-link {
