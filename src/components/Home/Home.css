@@ -5,7 +5,7 @@
   justify-content: space-between;
   padding: 20px 0;
   height: 90vh;
-  width: 80vw;
+  width: 90vw;
 }
 
 .home-title {
@@ -21,7 +21,7 @@
 
 .skill-badges-container {
   display: flex;
-  width: 100%;
+  width: 90%;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
@@ -40,8 +40,9 @@
 }
 
 .home-btns-container {
-  width: 450px;
+  width: 350px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -101,10 +102,16 @@
   .home-info-container {
     padding-bottom: 50px;
   }
+
+  .home-btns-container {
+    flex-direction: row;
+    width: 450px;
+  }
 }
 
 @media screen and (min-width: 710px) {
-  .home-title {
+  .home-container {
+    width: 80vw;
   }
 }
 

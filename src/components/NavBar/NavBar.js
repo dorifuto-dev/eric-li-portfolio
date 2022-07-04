@@ -25,4 +25,6 @@ const NavBar = () => {
   )
 }
 
+// TODO: Add hamburger nav menu
+
 export default NavBar;
