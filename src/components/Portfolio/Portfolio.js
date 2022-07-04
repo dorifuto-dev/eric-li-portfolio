@@ -1,10 +1,19 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Portfolio.css';
+import projects from '../../data/projectData';
+import ProjectCard from '../ProjectCard/ProjectCard';
 
 const Portfolio = () => {
+  const projectCards = projects.map(project => {
+    return (
+      <ProjectCard project={project} />
+    )
+  })
+
   return (
-    <>
-    </>
+    <section className='portfolio-container'>
+      { projects && projectCards }
+    </section>
   )
 }
 
