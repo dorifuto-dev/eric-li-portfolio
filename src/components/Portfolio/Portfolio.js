@@ -6,7 +6,7 @@ import ProjectCard from '../ProjectCard/ProjectCard';
 const Portfolio = () => {
   const projectCards = projects.map(project => {
     return (
-      <ProjectCard project={project} />
+      <ProjectCard key={project.id} project={project} />
     )
   })
 
