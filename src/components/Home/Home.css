@@ -2,13 +2,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  height: 90vh;
   width: 80vw;
 }
 
 .home-title {
   font-size: 2.2em;
   font-family: 'Press Start 2P', cursive;
-  margin-bottom: 250px
+}
+
+.home-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .skill-badges-container {
@@ -16,7 +24,7 @@
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .skill-badge {
@@ -90,14 +98,13 @@
 }
 
 @media screen and (min-width: 575px) {
-  .home-title {
-    margin-bottom: 300px
+  .home-info-container {
+    padding-bottom: 50px;
   }
 }
 
 @media screen and (min-width: 710px) {
   .home-title {
-    margin-bottom: 350px
   }
 }
 
