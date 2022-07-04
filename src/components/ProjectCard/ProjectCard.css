@@ -1,0 +1,28 @@
+.project-card {
+  border: 1px solid lime;
+  margin: 10px 0;
+  background-color: #ffffff;
+}
+
+.project-image {
+  width: 100vw;
+  height: 280px;
+  object-fit: cover;
+}
+
+.project-link {
+  color: black;
+  font-size: 0.7em;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 575px) {
+  .project-card {
+    margin: 10px;
+  }
+
+  .project-image {
+    width: 500px;
+  }
+}
+
