@@ -31,23 +31,34 @@
 
   .project-image {
     width: 500px;
+    border-radius: 10px;
   }
 
   .cover {
     position: absolute;
     top: 0;
     border-radius: 10px;
-    opacity: 10%;
-    z-index: 10;
+    opacity: 30%;
+    z-index: 2;
     width: 100%;
     height: 100%;
     background-color: black;
-    transition: 0s opacity;
+    transition: 0.3s opacity;
   }
 
   .cover:hover {
-    opacity: 0;
-    transition: 0.3s;
+    opacity: 0.1;
+    transition: 0.5s;
+  }
+
+  .project-title {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    z-index: 3;
+    font-weight: 700;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
   }
 }
 
