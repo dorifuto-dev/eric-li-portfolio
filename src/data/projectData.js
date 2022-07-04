@@ -66,7 +66,7 @@ const projects = [
   },
   {
     id: '1241',
-    title: 'QU - Musical Voting App',
+    title: 'QU - Musical Voting WIP',
     description: 'Developed for OUR Tech, LLC. QU is an app designed to be like a virtual song suggest list where guests have communication with the DJ or party host. Tech stack uses React Native.',
     url: '',
     deployedUrl: '',
