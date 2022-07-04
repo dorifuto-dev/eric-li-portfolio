@@ -1,0 +1,40 @@
+.project-details-container
+  width: 100vw
+  display: flex
+  flex-direction: column
+  align-items: center
+
+  .project-details-image
+    width: 100%
+
+  .project-details-title
+    padding-top: 10px
+
+  .project-detail-links
+    display: flex
+    flex-direction: column
+    justify-content: space-evenly
+    width: 50%
+
+  a
+    text-decoration: none
+    color: inherit
+
+  .project-details-description
+    font-size: 1em
+    width: 90%
+
+@media screen and (min-width: 575px)
+  .project-details-container
+    padding: 20px
+    max-width: 70vw
+
+    .project-detail-links
+      flex-direction: row
+
+    .project-details-image
+      width: 90%
+
+    .project-details-description
+      font-size: 0.8em
+      width: 80%
