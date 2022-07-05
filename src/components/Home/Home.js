@@ -18,7 +18,7 @@ const Home = () => {
           <img className='skill-badge' src={tsLogo} alt='typescript badge' />
         </div>
         <p className='home-description'>Thanks for stopping by! I am a Software Developer currently based out of Cottonwood Heights, Utah.</p>
-        <p className='home-skillset'>My skillset is Modern Angular, React, Javascript, TypeScript, HTML, CSS. Object Oriented Programming, Test Driven Development.</p>
+        <p className='home-skillset'>My technical skills include Modern Angular, React, Javascript, TypeScript, HTML, CSS. Object Oriented Programming, Test Driven Development, and more.</p>
         <div className='home-btns-container'>
           <Link className="box-1" to='/portfolio'>
             <div className="btn btn-one">

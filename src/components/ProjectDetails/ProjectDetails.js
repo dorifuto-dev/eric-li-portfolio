@@ -15,20 +15,25 @@ const ProjectDetails = () => {
         alt={currentProject.title}
         src={currentProject.imageUrl}
       />
-      <p className='project-details-title'>{currentProject.title}</p>
-      <div className='project-detail-links'>
-        {currentProject.deployedUrl
-          &&
+      <div className='details-cover'></div>
+      <div className='project-details-text-container'>
+        <p className='project-details-title'>{currentProject.title}</p>
+
+        <div className='project-detail-links'>
+          {currentProject.deployedUrl
+            &&
             <button className='btn btn-primary'>
               <a className='deployed-url' href={currentProject.deployedUrl}>Deployed Link</a>
             </button>
-        }
-        <button className='btn btn-success'>
-          <a className='github-url' href={currentProject.url}>Codebase</a>
-        </button>
+          }
+          <button className='btn btn-success'>
+            <a className='github-url' href={currentProject.url}>Codebase</a>
+          </button>
+        </div>
+        <p className='project-details-description'>{currentProject.description}</p>
+        <Link className='back-link' to={-1}>Back</Link>
       </div>
-      <p className='project-details-description'>{currentProject.description}</p>
-      <Link className='back-link' to={-1}>Back</Link>
+
     </article>
   )
 }
