@@ -6,6 +6,7 @@ import spacestagram from '../images/spacestagram.png';
 import hopAround from '../images/hop-around.png';
 import tonys from '../images/tonys.gif';
 import qu from '../images/qu.png';
+import dinos from '../images/dinos-vs-astros.png';
 
 const projects = [
   {
@@ -71,6 +72,14 @@ const projects = [
     url: '',
     deployedUrl: '',
     imageUrl: qu
+  },
+  {
+    id: '1242',
+    title: 'Dinos vs. Astros',
+    description: 'Tic Tac Toe exercise in vanilla JS.',
+    url: 'https://github.com/dorifuto-dev/tic-tac-toe',
+    deployedUrl: '',
+    imageUrl: dinos
   }
 ]
 
